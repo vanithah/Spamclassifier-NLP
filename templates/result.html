@@ -15,15 +15,15 @@
 		
 	</div>
 	</header>
-	<p style="color:blue;font-size:20;text-align: center;"><b>Result</b></p>
+	<p style="color:blue;font-size:20;text-align: left;"><b>Result</b></p>
 	<div class="results">
 
 
 		
 	{% if prediction == 1%}
-	<h2 style="color:red;text-align: center;">Spam</h2>
+	<h2 style="color:red;text-align: left;">Spam</h2>
 	{% elif prediction == 0%}
-	<h2 style="color:blue;text-align: center;">Not a Spam (It is a Ham)</h2>
+	<h2 style="color:blue;text-align: left;">Not a Spam (It is a Ham)</h2>
 	{% endif %}
 
 	</div>
